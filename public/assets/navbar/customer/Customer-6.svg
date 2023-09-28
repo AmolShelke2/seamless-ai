@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_blog">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_blog" data-name="500X500_nav_blog" clip-path="url(#clip-_500X500_nav_blog)">
+    <g id="Group_23719" data-name="Group 23719" transform="translate(0 13.503)">
+      <g id="Group_811" data-name="Group 811" transform="translate(226.673 123.732)">
+        <path id="Path_977" data-name="Path 977" d="M295.6,522.088l-23.16-21.67a21.193,21.193,0,0,0-29.874,1L87.092,667.577,61.411,749.162l79.7-31.049L296.577,551.967A21.2,21.2,0,0,0,295.6,522.088Z" transform="translate(-61.411 -494.742)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_677" data-name="Line 677" x2="34.998" y2="32.728" transform="translate(182.652 38.222)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_678" data-name="Line 678" x2="49.516" y2="46.335" transform="translate(32.375 170.179)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_679" data-name="Line 679" x2="30.232" y2="28.284" transform="translate(17.35 205.576)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_680" data-name="Line 680" x1="108.91" y2="116.403" transform="translate(57.142 76.951)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+      </g>
+      <path id="Path_76071" data-name="Path 76071" d="M-3908.76,7474.66h-104.876L-4089,7520.03V7251.443h315.812v51.33" transform="translate(4116.76 -7156.602)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+      <g id="Group_23718" data-name="Group 23718" transform="translate(72.085 157.59)">
+        <line id="Line_981" data-name="Line 981" x2="218.945" transform="translate(0 4)" fill="none" stroke="#005cee" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_1079" data-name="Line 1079" x2="146.014" transform="translate(0 57.351)" fill="none" stroke="#005cee" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+    </g>
+  </g>
+</svg>

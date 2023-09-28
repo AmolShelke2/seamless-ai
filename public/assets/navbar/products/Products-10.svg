@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_Nav_Sales-Team">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_Nav_Sales-Team" data-name="500X500_Nav_Sales-Team" clip-path="url(#clip-_500X500_Nav_Sales-Team)">
+    <g id="Icon_Money-Call-02" transform="translate(19.757 19.8)">
+      <g id="Group_24043" data-name="Group 24043" transform="translate(1.243 1.2)">
+        <g id="Group_24042" data-name="Group 24042" transform="translate(0 96.075)">
+          <g id="Group_24041" data-name="Group 24041">
+            <line id="Line_1224" data-name="Line 1224" x1="75.608" y1="50.864" transform="translate(258.833 290.901)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+            <path id="Path_96542" data-name="Path 96542" d="M71.743,119.121,21.567,44.2c-3.437,2.749-5.5,4.811-5.5,4.811C-2.49,65.507,1.634,80.629,1.634,80.629c12.372,89.355,106.539,175.274,114.1,182.834,9.623,8.936,93.479,101.04,182.834,114.1,0,0,14.434,4.124,31.618-14.434l5.5-5.5c6.186-8.248,28.181-37.117,28.869-41.928,0,0,2.062-9.623-8.936-17.184l-65.985-43.99s-11.685-10.31-27.494-1.375l-39.866,22s-39.866-31.618-61.861-55.675c-24.057-22-55.675-61.861-55.675-61.861l22-39.866c8.935-16.5-1.375-27.494-1.375-27.494L81.366,24.267c-7.561-11-17.184-8.936-17.184-8.936-4.811,0-13.747,5.5-22,12.372" transform="translate(-1.243 -15.178)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+          </g>
+        </g>
+        <path id="Path_96543" data-name="Path 96543" d="M18.4,94.679C50.018,39,109.13,1.2,177.177,1.2c101.04,0,182.147,81.794,182.147,182.834a181.984,181.984,0,0,1-91.417,158.09" transform="translate(99.527 -1.2)" fill="none" stroke="#0065f2" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+      <path id="Path_96544" data-name="Path 96544" d="M36.8,124.714a29.043,29.043,0,0,0,28.869,28.869h16.5a29.043,29.043,0,0,0,28.869-28.869V114.4A29.043,29.043,0,0,0,82.165,85.535h-16.5A29.043,29.043,0,0,1,36.8,56.666v-11A29.043,29.043,0,0,1,65.669,16.8h16.5a29.043,29.043,0,0,1,28.869,28.869" transform="translate(208.842 91.626)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+      <g id="Group_24044" data-name="Group 24044" transform="translate(282.759 65.123)">
+        <line id="Line_1225" data-name="Line 1225" y1="14.434" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+      <g id="Group_24045" data-name="Group 24045" transform="translate(282.759 274.764)">
+        <line id="Line_1226" data-name="Line 1226" y1="14.434" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+    </g>
+  </g>
+</svg>

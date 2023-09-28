@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_intent">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_intent" data-name="500X500_nav_intent" clip-path="url(#clip-_500X500_nav_intent)">
+    <g id="Ellipse_2847" data-name="Ellipse 2847" transform="translate(51 51)" fill="none" stroke="#0065f2" stroke-width="14">
+      <circle cx="199.5" cy="199.5" r="199.5" stroke="none"/>
+      <circle cx="199.5" cy="199.5" r="192.5" fill="none"/>
+    </g>
+    <line id="Line_1220" data-name="Line 1220" x2="78.169" transform="translate(60.29 250.5)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-width="14"/>
+    <line id="Line_1221" data-name="Line 1221" x2="78.169" transform="translate(363.41 250.5)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-width="14"/>
+    <line id="Line_1222" data-name="Line 1222" x2="78.169" transform="translate(250.934 59.855) rotate(90)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-width="14"/>
+    <line id="Line_1223" data-name="Line 1223" x2="78.169" transform="translate(250.934 362.976) rotate(90)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-width="14"/>
+  </g>
+</svg>

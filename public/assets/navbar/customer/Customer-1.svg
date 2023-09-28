@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_contact-story-testimonials">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_contact-story-testimonials" data-name="500X500_contact-story-testimonials" clip-path="url(#clip-_500X500_contact-story-testimonials)">
+    <g id="Group_23135" data-name="Group 23135" transform="translate(-773.593 -1405.858)">
+      <path id="Path_318" data-name="Path 318" d="M197.171,956.672V555.732a60.68,60.68,0,0,1,60.517-60.5H595.654a60.681,60.681,0,0,1,60.517,60.5v257.2a60.692,60.692,0,0,1-60.517,60.516H287.968Z" transform="translate(597.422 927.63)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+      <path id="Path_319" data-name="Path 319" d="M328.425,500.143l35.951,80.627,87.792,9.275-65.549,59.112L404.9,735.494l-76.471-44.072-76.483,44.072,18.276-86.336L204.7,590.046l87.776-9.275Z" transform="translate(695.657 991.771)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+    </g>
+  </g>
+</svg>

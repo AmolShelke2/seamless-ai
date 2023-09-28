@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_dataenrich">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_dataenrich" data-name="500X500_nav_dataenrich" clip-path="url(#clip-_500X500_nav_dataenrich)">
+    <g id="clipboard" transform="translate(91.621 55.027)">
+      <path id="Path_11" data-name="Path 11" d="M235.568,4h38.595a38.6,38.6,0,0,1,38.595,38.595V312.757a38.6,38.6,0,0,1-38.595,38.595H42.595A38.6,38.6,0,0,1,4,312.757V42.595A38.6,38.6,0,0,1,42.595,4H81.189" transform="translate(0 36.595)" fill="none" stroke="#005cee" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="155.37" height="76.859" rx="1" transform="translate(80.859 2)" fill="none" stroke="#005cee" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+    </g>
+  </g>
+</svg>

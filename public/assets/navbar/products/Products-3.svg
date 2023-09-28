@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_aseamlesseverywhere-TEMP">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_aseamlesseverywhere-TEMP" data-name="500X500_nav_aseamlesseverywhere-TEMP" clip-path="url(#clip-_500X500_nav_aseamlesseverywhere-TEMP)">
+    <g id="Ellipse_2772" data-name="Ellipse 2772" transform="translate(382 48)" fill="none" stroke="#0065f2" stroke-width="14">
+      <circle cx="44.5" cy="44.5" r="44.5" stroke="none"/>
+      <circle cx="44.5" cy="44.5" r="37.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2768" data-name="Ellipse 2768" transform="translate(30 32)" fill="none" stroke="#0065f2" stroke-width="14">
+      <circle cx="57.5" cy="57.5" r="57.5" stroke="none"/>
+      <circle cx="57.5" cy="57.5" r="50.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2770" data-name="Ellipse 2770" transform="translate(77 369)" fill="none" stroke="#0065f2" stroke-width="14">
+      <circle cx="41.5" cy="41.5" r="41.5" stroke="none"/>
+      <circle cx="41.5" cy="41.5" r="34.5" fill="none"/>
+    </g>
+    <path id="Path_76087" data-name="Path 76087" d="M-6953,5626l96.519,100.97" transform="translate(7073.823 -5501.696)" fill="none" stroke="#0065f2" stroke-width="14"/>
+    <path id="Path_76088" data-name="Path 76088" d="M-6932.186,5849.152l66.54-60.578" transform="translate(7079.017 -5461.131)" fill="none" stroke="#0065f2" stroke-width="14"/>
+    <path id="Path_76089" data-name="Path 76089" d="M-6791.341,5722.716l81.37-98.762" transform="translate(7114.16 -5502.207)" fill="none" stroke="#0065f2" stroke-width="14"/>
+    <path id="Path_76090" data-name="Path 76090" d="M-6786.261,5782.364l69.03,59.64" transform="translate(7109.08 -5458.542)" fill="none" stroke="#0065f2" stroke-width="14"/>
+    <g id="Ellipse_2771" data-name="Ellipse 2771" transform="translate(372 366)" fill="none" stroke="#0065f2" stroke-width="14">
+      <ellipse cx="44" cy="44.5" rx="44" ry="44.5" stroke="none"/>
+      <ellipse cx="44" cy="44.5" rx="37" ry="37.5" fill="none"/>
+    </g>
+    <path id="Path_76091" data-name="Path 76091" d="M384.3,159.928a75.417,75.417,0,1,1-53.07,52.216" transform="translate(702.615 110.218) rotate(129)" fill="none" stroke="#005cee" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+    <path id="Path_76092" data-name="Path 76092" d="M-7295.137,8375.655a40.82,40.82,0,0,1,1.5,29.877" transform="translate(7635 -8115)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-width="14"/>
+  </g>
+</svg>

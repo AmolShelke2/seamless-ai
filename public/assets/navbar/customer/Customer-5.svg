@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_knowledgebase">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_knowledgebase" data-name="500X500_nav_knowledgebase" clip-path="url(#clip-_500X500_nav_knowledgebase)">
+    <g id="Group_397" data-name="Group 397" transform="translate(21.098 17.089)">
+      <g id="Group_528" data-name="Group 528" transform="translate(160.774 0)">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="137.181" height="466.758" rx="3" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_413" data-name="Line 413" x1="132.541" transform="translate(2.328 68.688)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_414" data-name="Line 414" x1="132.541" transform="translate(2.328 224.356)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+      <g id="Group_531" data-name="Group 531" transform="translate(343.966 0.003)">
+        <path id="Path_551" data-name="Path 551" d="M350.386,487.723h89.756c13.745,0,25,11.695,25,25.991V928.486c0,14.3-11.259,25.992-25,25.992H350.386" transform="translate(-350.386 -487.723)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_415" data-name="Line 415" x1="111.509" transform="translate(0.144 68.685)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_416" data-name="Line 416" x1="111.509" transform="translate(0.144 224.353)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+      <g id="Group_534" data-name="Group 534" transform="translate(0 0.003)">
+        <path id="Path_553" data-name="Path 553" d="M425.725,487.723H336.211c-13.752,0-25,11.695-25,25.991V928.486c0,14.3,11.251,25.992,25,25.992h89.514" transform="translate(-311.208 -487.723)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_417" data-name="Line 417" x2="111.281" transform="translate(3.093 68.685)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+        <line id="Line_418" data-name="Line 418" x2="111.281" transform="translate(3.093 224.353)" fill="none" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+    </g>
+  </g>
+</svg>

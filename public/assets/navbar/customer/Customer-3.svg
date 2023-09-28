@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_nav_presidentsclub_2">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_nav_presidentsclub_2" data-name="500X500_nav_presidentsclub – 2" clip-path="url(#clip-_500X500_nav_presidentsclub_2)">
+    <g id="Group_23722" data-name="Group 23722" transform="translate(4805.909 -6426)">
+      <g id="Group_23721" data-name="Group 23721" transform="translate(-4766.777 6462.393)">
+        <path id="Path_76072" data-name="Path 76072" d="M428.432,89.2H386.681V34.629h-98.3l-69.424-26.1-71.321,26.1H49.751V89.2H8V221.056H49.751V364.623l166.194,86.516,170.737-86.516V221.056h41.751Z" transform="translate(-8 -8.532)" fill="none" stroke="#0065f2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="14"/>
+      </g>
+      <line id="Line_1080" data-name="Line 1080" x2="418.121" transform="translate(-4764.03 6544.026)" fill="none" stroke="#005cee" stroke-miterlimit="10" stroke-width="14"/>
+      <line id="Line_1081" data-name="Line 1081" x2="418.121" transform="translate(-4764.03 6674.438)" fill="none" stroke="#005cee" stroke-miterlimit="10" stroke-width="14"/>
+    </g>
+  </g>
+</svg>

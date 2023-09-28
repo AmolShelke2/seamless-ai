@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_500X500_contact-story_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_500X500_contact-story_1" data-name="500X500_contact-story – 1" clip-path="url(#clip-_500X500_contact-story_1)">
+    <g id="Group_22881" data-name="Group 22881" transform="translate(21 47.081)">
+      <line id="Line_272" data-name="Line 272" x2="357.908" transform="translate(31.417 80.278)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+      <g id="Group_309" data-name="Group 309" transform="translate(75.07 157.795)">
+        <line id="Line_273" data-name="Line 273" x2="270.603" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_274" data-name="Line 274" x2="114.568" transform="translate(0 52.646)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+      </g>
+      <g id="Group_316" data-name="Group 316" transform="translate(50.049 35.006)">
+        <g id="Group_311" data-name="Group 311">
+          <g id="Group_310" data-name="Group 310">
+            <path id="Path_340" data-name="Path 340" d="M62.676,497.043a5.265,5.265,0,1,1-5.265-5.257A5.25,5.25,0,0,1,62.676,497.043Z" transform="translate(-52.147 -491.785)" fill="#0065f2" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+          </g>
+        </g>
+        <g id="Group_313" data-name="Group 313" transform="translate(51.004)">
+          <g id="Group_312" data-name="Group 312">
+            <path id="Path_341" data-name="Path 341" d="M69.942,497.043a5.265,5.265,0,1,1-5.265-5.257A5.25,5.25,0,0,1,69.942,497.043Z" transform="translate(-59.413 -491.785)" fill="#0065f2" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+          </g>
+        </g>
+        <g id="Group_315" data-name="Group 315" transform="translate(101.938)">
+          <g id="Group_314" data-name="Group 314">
+            <path id="Path_342" data-name="Path 342" d="M77.339,497.12A5.335,5.335,0,1,1,72,491.785,5.332,5.332,0,0,1,77.339,497.12Z" transform="translate(-66.669 -491.785)" fill="#0065f2" stroke="#0065f2" stroke-miterlimit="10" stroke-width="14"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_343" data-name="Path 343" d="M277.855,795.826H68.357a23.408,23.408,0,0,1-23.34-23.347V510.138a23.406,23.406,0,0,1,23.34-23.34H442.415a23.459,23.459,0,0,1,23.347,23.537V750.017" transform="translate(-45.017 -486.798)" fill="none" stroke="#005cee" stroke-miterlimit="10" stroke-width="14"/>
+      <g id="Group_317" data-name="Group 317" transform="translate(229.174 208.565)">
+        <path id="Path_344" data-name="Path 344" d="M118.3,601.411l-40.636-84.9,93.592,25L302.529,649c7.23,5.931,6.465,18.96-1.685,28.955l-20.869,25.5c-8.164,10.009-20.82,13.315-28.057,7.377Z" transform="translate(-77.665 -516.51)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_275" data-name="Line 275" y1="16.102" x2="13.189" transform="translate(13.494 8.389)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_276" data-name="Line 276" y1="57.802" x2="47.334" transform="translate(47.616 29.461)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_277" data-name="Line 277" y1="57.816" x2="47.32" transform="translate(147.312 111.09)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+        <line id="Line_278" data-name="Line 278" x2="72.016" y2="58.974" transform="translate(72.897 59.678)" fill="none" stroke="#005cee" stroke-linejoin="round" stroke-width="14"/>
+      </g>
+    </g>
+  </g>
+</svg>
