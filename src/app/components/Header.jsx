@@ -10,7 +10,9 @@ export const Header = () => {
   const [isNavActive, setIsNavActive] = useState(false);
 
   return (
-    <header className="w-full pt-3 px-2 lg:px-6 flex justify-between items-center sticky top-0">
+    <header
+      className="max-w-[1440px] mx-auto pt-3 px-2 lg:px-6 flex justify-between items-center sticky 
+    top-0">
       <div className="flex items-center gap-1 cursor-pointer w-auto lg:w-[65%]">
         <div className="flex justify-center items-center mr-8 gap-1 relative">
           <Image
