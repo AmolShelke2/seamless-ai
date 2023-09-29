@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./re-usable/Button";
@@ -9,7 +10,7 @@ export const Header = () => {
   const [isNavActive, setIsNavActive] = useState(false);
 
   return (
-    <header className="w-full pt-3 px-2 lg:px-6 flex justify-between items-center sticky top-2">
+    <header className="w-full pt-3 px-2 lg:px-6 flex justify-between items-center sticky top-0">
       <div className="flex items-center gap-1 cursor-pointer w-auto lg:w-[65%]">
         <div className="flex justify-center items-center mr-8 gap-1 relative">
           <Image
@@ -25,7 +26,9 @@ export const Header = () => {
 
         <ul
           className={`lg:justify-between absolute ${
-            isNavActive ? "top-16 shadow-md h-screen" : "top-[-300px]"
+            isNavActive
+              ? "top-16 lg:top-0 shadow-md h-screen lg:h-auto lg:shadow-none bg-slate-100 lg:bg-white"
+              : "top-[-300px] lg:top-0"
           }
         lg:static lg:top-0 flex flex-col lg:flex-row
         transition-all duration-700`}>
@@ -45,9 +48,10 @@ export const Header = () => {
         text-lg border border-red-400 hover:bg-[#e13019] hover:text-white hidden lg:block">
           Get a Demo
         </button>
-        <Button innerText={"get started free"} />
 
-        <div className="ml-3">
+        <Button innerText={"get started free"} styles={""} />
+
+        <div className="ml-3 cursor-pointer">
           <AiOutlineMenu
             size={20}
             className="hover:text-[#e13019] lg:hidden"
