@@ -1,27 +1,27 @@
 export const companies = [
   {
     id: 1,
-    image: "/assets/HeroSection/companies/company-1.svg",
+    image: "/assets/companies/company-1.svg",
   },
   {
     id: 2,
-    image: "/assets/HeroSection/companies/company-2.svg",
+    image: "/assets/companies/company-2.svg",
   },
   {
     id: 3,
-    image: "/assets/HeroSection/companies/company-3.svg",
+    image: "/assets/companies/company-3.svg",
   },
   {
     id: 4,
-    image: "/assets/HeroSection/companies/company-4.svg",
+    image: "/assets/companies/company-4.svg",
   },
   {
     id: 5,
-    image: "/assets/HeroSection/companies/company-5.svg",
+    image: "/assets/companies/company-5.svg",
   },
   {
     id: 6,
-    image: "/assets/HeroSection/companies/company-6.svg",
+    image: "/assets/companies/company-6.svg",
   },
 ];
 

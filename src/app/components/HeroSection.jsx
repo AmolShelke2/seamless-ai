@@ -94,7 +94,7 @@ export const HeroSection = () => {
         </div>
 
         <div
-          className="hidden sm:h-full sm:w-full lg:h-[610px] lg:w-[580px] lg:flex flex-col
+          className="hidden lg:h-[610px] lg:w-[580px] lg:flex flex-col
       justify-start items-start"
           style={{
             backgroundImage:

@@ -1,6 +1,10 @@
 import { About } from "./components/About";
+import { ChromeExtension } from "./components/ChromeExtension";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
+import { IntegrationsInformation } from "./components/IntegrationsInformation";
+import { SalesInformation } from "./components/SalesInformation";
+import { WriterInformation } from "./components/WriterInformation";
 
 export default function Home() {
   return (
@@ -11,6 +15,10 @@ export default function Home() {
       <div className="w-full max-w-[1400px] mx-auto">
         <HeroSection />
         <About />
+        <SalesInformation />
+        <ChromeExtension />
+        <WriterInformation />
+        <IntegrationsInformation />
       </div>
     </>
   );
