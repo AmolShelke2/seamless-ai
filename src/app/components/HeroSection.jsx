@@ -98,7 +98,8 @@ export const HeroSection = () => {
       justify-start items-start"
           style={{
             backgroundImage:
-              'url("/assets/HeroSection/image-section/cards-bg.svg")',
+              'url("/assets/HeroSection/Image-section/cards-bg.svg")',
+            backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}>
