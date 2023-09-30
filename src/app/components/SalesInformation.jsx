@@ -34,11 +34,11 @@ export const SalesInformation = () => {
       </div>
 
       <div
-        className="h-[650px] lg:w-[718px] ml-4 px-4 relative"
+        className="h-[650px] lg:w-[718px] ml-4 px-4 relative -z-10"
         style={{
           backgroundImage:
             'url("/assets/information/image-section/information-1.bg.svg")',
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}>

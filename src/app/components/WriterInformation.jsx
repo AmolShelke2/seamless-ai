@@ -34,41 +34,41 @@ export const WriterInformation = () => {
       </div>
 
       <div
-        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 relative"
+        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 relative -z-10"
         style={{
           backgroundImage:
-            'url("/assets/information/image-section/information-2.bg.svg")',
+            'url("/assets/information/image-section/writer-bg.svg")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          backgroundPosition: "center center",
         }}>
-        <Image
-          src={"/assets/information/image-section/chrome-extension-3.svg"}
-          alt="content"
-          height={400}
-          width={400}
-          className="absolute top-0 right-24 card-animation"
-          loading="lazy"
-        />
-
         <div className="relative hidden lg:block">
           <div className="relative">
             <Image
-              src={"/assets/information/image-section/chrome-extension-1.svg"}
+              src={"/assets/information/image-section/writer-1.svg"}
               height={400}
               width={550}
               alt="content"
-              className=" absolute top-4 left-20 card-animation"
+              className=" absolute top-8 left-14 card-animation"
+              loading="lazy"
+            />
+
+            <Image
+              src={"/assets/information/image-section/writer-2.svg"}
+              alt="content"
+              height={400}
+              width={400}
+              className="absolute top-12 right-32 card-animation"
               loading="lazy"
             />
           </div>
 
           <Image
-            src={"/assets/information/image-section/chrome-extension-4.svg"}
-            height={400}
-            width={500}
+            src={"/assets/information/image-section/writer-3.svg"}
+            height={500}
+            width={600}
             alt="content"
-            className="absolute top-0 left-0 card-animation"
+            className="absolute top-10 left-8 card-animation"
             loading="lazy"
           />
         </div>

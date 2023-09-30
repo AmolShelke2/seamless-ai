@@ -95,7 +95,7 @@ export const HeroSection = () => {
 
         <div
           className="hidden lg:h-[610px] lg:w-[580px] lg:flex flex-col
-      justify-start items-start"
+      justify-start items-start -z-10"
           style={{
             backgroundImage:
               'url("/assets/HeroSection/Image-section/cards-bg.svg")',
@@ -103,7 +103,7 @@ export const HeroSection = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}>
-          <ImageCard />
+          <ImageCard className={"card-animation-fast"} />
           <ImageCard className={"card-animation"} />
           <ImageCard className={"card-animation"} />
           <ImageCard className={"card-animation"} />

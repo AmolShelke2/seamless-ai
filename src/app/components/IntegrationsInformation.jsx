@@ -9,7 +9,7 @@ import { InfoHeader } from "./re-usable/infosection/InfoHeader";
 export const IntegrationsInformation = () => {
   return (
     <section
-      className="w-full h-full lg:h-[650px] py-6 my-16 flex flex-col-reverse px-4
+      className="w-full h-full lg:h-[650px] py-6 my-24 flex flex-col-reverse px-4
     lg:flex-row-reverse justify-between items-center">
       <div className="h-full w-full lg:h-[596px] lg:w-[594px]">
         <InfoHeader header={"INTEGRATIONS"} />
@@ -34,44 +34,22 @@ export const IntegrationsInformation = () => {
       </div>
 
       <div
-        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 relative"
+        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 -z-10 relative"
         style={{
           backgroundImage:
-            'url("/assets/information/image-section/information-2.bg.svg")',
+            'url("/assets/information/image-section/integration-bg.svg")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}>
         <Image
-          src={"/assets/information/image-section/chrome-extension-3.svg"}
+          src={"/assets/information/image-section/integration-image-5.svg"}
           alt="content"
           height={400}
-          width={400}
-          className="absolute top-0 right-24 card-animation"
+          width={500}
+          className="absolute bottom-28 left-0 card-animation"
           loading="lazy"
         />
-
-        <div className="relative hidden lg:block">
-          <div className="relative">
-            <Image
-              src={"/assets/information/image-section/chrome-extension-1.svg"}
-              height={400}
-              width={550}
-              alt="content"
-              className=" absolute top-4 left-20 card-animation"
-              loading="lazy"
-            />
-          </div>
-
-          <Image
-            src={"/assets/information/image-section/chrome-extension-4.svg"}
-            height={400}
-            width={500}
-            alt="content"
-            className="absolute top-0 left-0 card-animation"
-            loading="lazy"
-          />
-        </div>
       </div>
     </section>
   );

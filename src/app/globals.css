@@ -21,6 +21,18 @@ body {
   }
 }
 
-.card-animation {
+.card-animation-fast {
   animation: cardSlideIn 1s ease-out;
+}
+
+.card-animation {
+  animation: cardSlideIn 2s ease-out;
+}
+
+.quality-data {
+  background: url("/assets/information/image-section/quality-data-bg.svg"),
+    linear-gradient(172deg, #0041c3, #0065f2);
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  background-position: 50%, 0 0;
 }
