@@ -42,3 +42,13 @@ export const aboutInfo = [
     info: "Increase in Opportunities on Average",
   },
 ];
+
+export const FaqQuestions = [
+  { id: "1", question: "What is AI's impact on healthcare?" },
+  { id: "7", question: "How does Seamless.AI work?" },
+  { id: "2", question: "How does quantum computing work?" },
+  { id: "3", question: "What are the benefits of renewable energy?" },
+  { id: "4", question: "What is the future of autonomous vehicles?" },
+  { id: "5", question: "How does blockchain ensure data security?" },
+  { id: "6", question: "What is the significance of nanotechnology?" },
+];

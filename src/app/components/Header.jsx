@@ -41,7 +41,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <div className="flex gap-1 items-center justify-between w-auto lg:w-[30%] relative">
+      <div className="flex items-center justify-end w-auto lg:w-[45%] relative gap-4">
         <p className="cursor-pointer hover:text-[#e13019] text-lg hidden lg:block">
           Login
         </p>

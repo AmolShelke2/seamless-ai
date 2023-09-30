@@ -1,5 +1,6 @@
 import { About } from "./components/About";
 import { ChromeExtension } from "./components/ChromeExtension";
+import { FAQ } from "./components/FAQ";
 import { FreeCredits } from "./components/FreeCredits";
 import { GrowthInformation } from "./components/GrowthInformation";
 import { Header } from "./components/Header";
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
       <QualityData />
       <FreeCredits />
+      <FAQ />
     </>
   );
 }
