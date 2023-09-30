@@ -1,5 +1,6 @@
 import { About } from "./components/About";
 import { ChromeExtension } from "./components/ChromeExtension";
+import { FreeCredits } from "./components/FreeCredits";
 import { GrowthInformation } from "./components/GrowthInformation";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
@@ -24,6 +25,7 @@ export default function Home() {
         <GrowthInformation />
       </div>
       <QualityData />
+      <FreeCredits />
     </>
   );
 }

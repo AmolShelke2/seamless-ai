@@ -4,7 +4,7 @@ import { QualityDataCard } from "./re-usable/QualityDataCard";
 
 export const QualityData = () => {
   return (
-    <div className="quality-data w-full py-16 my-16">
+    <section className="quality-data w-full py-16 my-16">
       <div className="w-full lg:w-[1400px] lg:mx-auto lg:h-[703px] px-5 lg:px-10">
         <h2
           className="w-full text-center lg:text-[52px] text-2xl
@@ -71,6 +71,6 @@ export const QualityData = () => {
           </div>
         </aside>
       </div>
-    </div>
+    </section>
   );
 };
