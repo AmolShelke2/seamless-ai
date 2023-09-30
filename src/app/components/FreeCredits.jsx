@@ -5,8 +5,8 @@ import { Button } from "./re-usable/Button";
 export const FreeCredits = () => {
   return (
     <section
-      className="w-full lg:w-[1400px] lg:mx-auto lg:h-[685px]
-       px-5 flex flex-col-reverse md:flex-row justify-between my-10">
+      className="w-full h-full xl:w-[1400px] xl:mx-auto xl:h-[685px]
+       px-5 flex flex-col-reverse md:flex-row 2xl:justify-between my-10">
       <div className="w-full md:w-[600px] h-[403px] md:px-4 my-auto">
         <h2
           className="text-[38px] leading-[50px] md:text-[64px] md:leading-[68px] 
@@ -63,7 +63,7 @@ export const FreeCredits = () => {
           height={600}
           width={600}
           alt="image"
-          className="h-full w-full"
+          className="h-full w-full xl:w-auto xl:h-auto"
         />
       </div>
     </section>

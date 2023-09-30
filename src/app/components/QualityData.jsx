@@ -5,18 +5,18 @@ import { QualityDataCard } from "./re-usable/QualityDataCard";
 export const QualityData = () => {
   return (
     <section className="quality-data w-full py-16 my-16">
-      <div className="w-full lg:w-[1400px] lg:mx-auto lg:h-[703px] px-5 lg:px-10">
+      <div className="w-full h-full xl:max-w-[1400px] xl:mx-auto xl:h-[703px] px-5 lg:px-10">
         <h2
           className="w-full text-center lg:text-[52px] text-2xl
         lg:leading-[60px] font-bold text-white">
           Quality Data Creates Profitable Business
         </h2>
 
-        <aside className="flex flex-col lg:flex-row items-start gap-4 lg:gap-8 lg:px-20">
+        <aside className="flex flex-col lg:flex-row items-start gap-4 xl:gap-8 xl:px-20">
           <QualityDataCard />
 
-          <div className="grid grid-cols-2 lg:flex lg:flex-col gap-4 lg:gap-8 py-8">
-            <div className="w-fit lg:w-[325px] h-[260px] px-5 py-9 bg-white rounded-2xl flex flex-col">
+          <div className="grid grid-cols-2 lg:flex lg:flex-col gap-4 xl:gap-8 py-8">
+            <div className="w-fit sm:w-[325px] h-[260px] px-5 py-9 bg-white rounded-2xl flex flex-col">
               <Image
                 src={"/assets/businesses/business-2.svg"}
                 height={50}
@@ -41,7 +41,7 @@ export const QualityData = () => {
                 </span>
               </p>
             </div>
-            <div className="w-fit lg:w-[325px] h-[260px] px-5 py-9 bg-white rounded-2xl flex flex-col">
+            <div className="w-fit sm:w-[325px] h-[260px] px-5 py-9 bg-white rounded-2xl flex flex-col">
               <Image
                 src={"/assets/businesses/business-3.svg"}
                 height={50}
