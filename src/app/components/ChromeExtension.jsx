@@ -34,7 +34,7 @@ export const ChromeExtension = () => {
       </div>
 
       <div
-        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 relative -z-10"
+        className="hidden lg:block lg:h-[650px] w-full lg:w-[718px] ml-4 px-4 relative -z-10"
         style={{
           backgroundImage:
             'url("/assets/information/image-section/information-2.bg.svg")',

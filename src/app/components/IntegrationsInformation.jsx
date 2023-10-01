@@ -5,6 +5,7 @@ import { Button } from "./re-usable/Button";
 import { InfoDescription } from "./re-usable/infosection/InfoDescription";
 import { InfoTitle } from "./re-usable/infosection/InfoTitle";
 import { InfoHeader } from "./re-usable/infosection/InfoHeader";
+import { companies } from "../libs/constants";
 
 export const IntegrationsInformation = () => {
   return (
@@ -34,7 +35,7 @@ export const IntegrationsInformation = () => {
       </div>
 
       <div
-        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 -z-10 relative"
+        className="h-full w-full lg:w-[718px] ml-4 px-4 -z-10 relative sm:flex flex-col justify-center items-start hidden "
         style={{
           backgroundImage:
             'url("/assets/information/image-section/integration-bg.svg")',
@@ -42,14 +43,19 @@ export const IntegrationsInformation = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}>
-        <Image
-          src={"/assets/information/image-section/integration-image-5.svg"}
-          alt="content"
-          height={400}
-          width={500}
-          className="absolute bottom-28 left-0 card-animation"
-          loading="lazy"
-        />
+        <aside className="grid grid-flow-row grid-cols-3 place-items-center w-full">
+          {companies.map((company) => (
+            <Image
+              key={company.id}
+              src={company.image}
+              alt="content"
+              height={100}
+              width={100}
+              className="card-animation"
+              loading="lazy"
+            />
+          ))}
+        </aside>
       </div>
     </section>
   );

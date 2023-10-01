@@ -52,3 +52,64 @@ export const FaqQuestions = [
   { id: "5", question: "How does blockchain ensure data security?" },
   { id: "6", question: "What is the significance of nanotechnology?" },
 ];
+
+export const footerIcons = [
+  { id: 1, icon: "/assets/footer/linkedin.svg" },
+  { id: 2, icon: "/assets/footer/twitter.svg" },
+  { id: 3, icon: "/assets/footer/tiktok.svg" },
+  { id: 4, icon: "/assets/footer/instagram.svg" },
+  { id: 5, icon: "/assets/footer/youtube.svg" },
+  { id: 6, icon: "/assets/footer/facebook.svg" },
+];
+
+export const footerLinks = [
+  {
+    title: "products",
+    subTitle: [
+      { id: 1, title: "Platform Overview" },
+      { id: 2, title: "Chrome Extension" },
+      { id: 3, title: "Pitch Intelligence" },
+      { id: 4, title: "Data Enrichment" },
+      { id: 5, title: "Writer" },
+      { id: 6, title: "Buyer Intent Data" },
+      { id: 7, title: "Job Changes" },
+      { id: 8, title: "Autopilot" },
+      { id: 9, title: "Integrations" },
+      { id: 10, title: "Pricing" },
+    ],
+  },
+
+  {
+    title: "Customers",
+    subTitle: [
+      { id: 12, title: "Testimonials" },
+      { id: 13, title: "Case Studies" },
+      { id: 14, title: "Apply for President's Club" },
+      { id: 15, title: "Submit Your Story" },
+      { id: 16, title: "Knowledge Base" },
+      { id: 17, title: "Blog" },
+      { id: 18, title: "Get Support" },
+      { id: 19, title: "Seamless.AI Status" },
+    ],
+  },
+
+  {
+    title: "Company",
+    subTitle: [
+      { id: 21, title: "About Us" },
+      { id: 22, title: "Careers" },
+      { id: 23, title: "Affiliate Program" },
+    ],
+  },
+  {
+    title: "Social",
+    subTitle: [
+      { id: 26, title: "Linkedin" },
+      { id: 27, title: "Facebook" },
+      { id: 28, title: "Instagram" },
+      { id: 29, title: "Twitter" },
+      { id: 30, title: "YouTube" },
+      { id: 31, title: "TikTok" },
+    ],
+  },
+];

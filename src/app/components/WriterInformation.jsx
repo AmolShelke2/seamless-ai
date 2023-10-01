@@ -34,7 +34,7 @@ export const WriterInformation = () => {
       </div>
 
       <div
-        className="h-[650px] w-full lg:w-[718px] ml-4 px-4 relative -z-10"
+        className="lg:h-[650px] h-full w-full lg:w-[718px] ml-4 px-4 relative -z-10 hidden lg:block"
         style={{
           backgroundImage:
             'url("/assets/information/image-section/writer-bg.svg")',

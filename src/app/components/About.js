@@ -4,7 +4,7 @@ import { aboutInfo } from "../libs/constants";
 
 export const About = () => {
   return (
-    <section className="w-full h-[700px] my-8 py-5 lg:my-16 lg:py-10">
+    <section className="w-full h-full lg:h-[700px] my-10 py-5 lg:my-16 lg:py-10">
       <div className="mx-auto lg:w-[1040px] px-2 py-2 lg:mb-12">
         <h2 className="text-center sm:h-[120px] text-3xl lg:text-[52px] lg:leading-[60px] text-black font-bold mb-8">
           The First and Only Real-Time Search Engine for B2B Sales Leads
@@ -21,7 +21,7 @@ export const About = () => {
         {aboutInfo.map((about) => (
           <div
             key={about.id}
-            className="w-full sm:w-[445px] h-[275px] shadow-2xl rounded-2xl px-5 card-animation
+            className="w-full sm:w-[445px] h-[275px] shadow-2xl rounded-2xl px-5
                  py-10 flex flex-col justify-center items-center">
             <h3 className="text-[#0065f2] text-[52px] font-bold h-[90px] w-full text-center">
               {about.title}

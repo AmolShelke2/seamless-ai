@@ -1,6 +1,7 @@
 import { About } from "./components/About";
 import { ChromeExtension } from "./components/ChromeExtension";
 import { FAQ } from "./components/FAQ";
+import { Footer } from "./components/Footer";
 import { FreeCredits } from "./components/FreeCredits";
 import { GrowthInformation } from "./components/GrowthInformation";
 import { Header } from "./components/Header";
@@ -28,6 +29,9 @@ export default function Home() {
       <QualityData />
       <FreeCredits />
       <FAQ />
+      <div className="h-full w-full mb-10 mt-32 py-10">
+        <Footer />
+      </div>
     </>
   );
 }

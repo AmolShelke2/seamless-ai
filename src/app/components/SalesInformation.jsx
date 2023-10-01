@@ -9,8 +9,8 @@ import Image from "next/image";
 export const SalesInformation = () => {
   return (
     <section
-      className="w-full h-full lg:h-[650px] py-6 my-24 flex flex-col-reverse px-4
-    lg:flex-row justify-between items-center">
+      className="w-full h-full lg:h-[650px] py-6 my-16 flex flex-col-reverse px-4
+  lg:flex-row justify-between items-center">
       <div className="h-full w-full lg:h-[596px] lg:w-[594px]">
         <InfoHeader header={"SALES PROSPECTING SOLUTION"} />
         <InfoTitle title={"Get in Front of the Right Sales Prospects"} />
@@ -34,7 +34,7 @@ export const SalesInformation = () => {
       </div>
 
       <div
-        className="h-[650px] lg:w-[718px] ml-4 px-4 relative -z-10"
+        className="hidden lg:block h-full w-full lg:h-[650px] lg:w-[718px] ml-4 px-4 relative -z-10"
         style={{
           backgroundImage:
             'url("/assets/information/image-section/information-1.bg.svg")',
@@ -51,7 +51,7 @@ export const SalesInformation = () => {
           loading="lazy"
         />
 
-        <div className="relative hidden lg:block">
+        <div className="relative block">
           <Image
             src={"/assets/information/image-section/content-1-image.svg"}
             height={400}

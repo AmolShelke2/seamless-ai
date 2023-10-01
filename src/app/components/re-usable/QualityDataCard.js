@@ -4,9 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export const QualityDataCard = () => {
   return (
-    <div
-      className="w-full lg:w-[803px] h-full sm:h-[613px] py-10 px-9 bg-white rounded-2xl mt-8 
-          card-animation">
+    <div className="w-full lg:w-[803px] h-full sm:h-[613px] py-10 px-9 bg-white rounded-2xl mt-8 card-animation">
       <Image
         src={"/assets/businesses/business-1.svg"}
         height={90}
