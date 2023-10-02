@@ -1,10 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { QualityDataCard } from "./re-usable/QualityDataCard";
+import { useInView } from "react-intersection-observer";
 
 export const QualityData = () => {
+  const [ref, isInView] = useInView();
+
   return (
-    <section className="quality-data w-full py-16 my-16">
+    <section className="quality-data w-full py-16 my-16" ref={ref}>
       <div className="w-full h-full xl:max-w-[1400px] xl:mx-auto xl:h-[703px] px-5 lg:px-10">
         <h2
           className="w-full text-center lg:text-[52px] text-2xl
@@ -13,7 +18,7 @@ export const QualityData = () => {
         </h2>
 
         <aside className="flex flex-col lg:flex-row items-start gap-4 xl:gap-8 xl:px-20">
-          <QualityDataCard />
+          <QualityDataCard styles={`${isInView ? "card-animation" : ""}`} />
 
           <div className="grid grid-cols-2 lg:flex lg:flex-col gap-4 xl:gap-8 py-8">
             <div className="w-fit sm:w-[325px] h-[260px] px-5 py-9 bg-white rounded-2xl flex flex-col">

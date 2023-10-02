@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { InfoReview } from "./re-usable/infosection/InfoReview";
@@ -6,10 +8,14 @@ import { InfoDescription } from "./re-usable/infosection/InfoDescription";
 import { InfoTitle } from "./re-usable/infosection/InfoTitle";
 import { InfoHeader } from "./re-usable/infosection/InfoHeader";
 import { companies } from "../libs/constants";
+import { useInView } from "react-intersection-observer";
 
 export const IntegrationsInformation = () => {
+  const [ref, isInView] = useInView();
+
   return (
     <section
+      ref={ref}
       className="w-full h-full lg:h-[650px] py-6 my-24 flex flex-col-reverse px-4
     lg:flex-row-reverse justify-between items-center">
       <div className="h-full w-full lg:h-[596px] lg:w-[594px]">
@@ -51,7 +57,7 @@ export const IntegrationsInformation = () => {
               alt="content"
               height={100}
               width={100}
-              className="card-animation"
+              className={`${isInView ? "card-animation" : ""}`}
               loading="lazy"
             />
           ))}

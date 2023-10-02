@@ -26,6 +26,18 @@ body {
   animation: cardSlideIn 1s ease-out;
 }
 
+.card-animation-1 {
+  animation: cardSlideIn 1.2s ease-out;
+}
+
+.card-animation-2 {
+  animation: cardSlideIn 1.4s ease-out;
+}
+
+.card-animation-3 {
+  animation: cardSlideIn 1.8s ease-out;
+}
+
 .card-animation {
   animation: cardSlideIn 2s ease-out;
 }

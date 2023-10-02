@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { InfoReview } from "./re-usable/infosection/InfoReview";
@@ -5,10 +7,14 @@ import { Button } from "./re-usable/Button";
 import { InfoDescription } from "./re-usable/infosection/InfoDescription";
 import { InfoTitle } from "./re-usable/infosection/InfoTitle";
 import { InfoHeader } from "./re-usable/infosection/InfoHeader";
+import { useInView } from "react-intersection-observer";
 
 export const WriterInformation = () => {
+  const [ref, isInView] = useInView();
+
   return (
     <section
+      ref={ref}
       className="w-full h-full lg:h-[650px] py-6 my-16 flex flex-col-reverse px-4
   lg:flex-row justify-between items-center">
       <div className="h-full w-full lg:h-[596px] lg:w-[594px]">
@@ -49,7 +55,10 @@ export const WriterInformation = () => {
               height={400}
               width={550}
               alt="content"
-              className=" absolute top-8 left-14 card-animation"
+              ref={ref}
+              className={`absolute top-8 left-14 ${
+                isInView ? "card-animation-fast" : ""
+              }`}
               loading="lazy"
             />
 
@@ -58,7 +67,10 @@ export const WriterInformation = () => {
               alt="content"
               height={400}
               width={400}
-              className="absolute top-12 right-32 card-animation"
+              ref={ref}
+              className={`absolute top-12 right-32  ${
+                isInView ? "card-animation-2" : ""
+              }`}
               loading="lazy"
             />
           </div>
@@ -68,7 +80,10 @@ export const WriterInformation = () => {
             height={500}
             width={600}
             alt="content"
-            className="absolute top-10 left-8 card-animation"
+            ref={ref}
+            className={`absolute top-10 left-8  ${
+              isInView ? "card-animation" : ""
+            }`}
             loading="lazy"
           />
         </div>

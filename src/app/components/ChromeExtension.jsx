@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { InfoHeader } from "./re-usable/infosection/InfoHeader";
 import { InfoTitle } from "./re-usable/infosection/InfoTitle";
@@ -5,8 +7,11 @@ import { InfoDescription } from "./re-usable/infosection/InfoDescription";
 import { Button } from "./re-usable/Button";
 import { InfoReview } from "./re-usable/infosection/InfoReview";
 import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 
 export const ChromeExtension = () => {
+  const [ref, isInView] = useInView();
+
   return (
     <section
       className="w-full h-full lg:h-[650px] py-6 my-16 flex flex-col-reverse px-4
@@ -47,7 +52,10 @@ export const ChromeExtension = () => {
           alt="content"
           height={400}
           width={400}
-          className="absolute top-0 right-24 card-animation"
+          ref={ref}
+          className={`absolute top-0 right-24 ${
+            isInView ? "card-animation-fast" : ""
+          }`}
           loading="lazy"
         />
 
@@ -58,7 +66,10 @@ export const ChromeExtension = () => {
               height={400}
               width={550}
               alt="content"
-              className=" absolute top-4 left-20 card-animation"
+              ref={ref}
+              className={`absolute top-4 left-20 ${
+                isInView ? "card-animation-2" : ""
+              }`}
               loading="lazy"
             />
           </div>
@@ -68,7 +79,10 @@ export const ChromeExtension = () => {
             height={400}
             width={500}
             alt="content"
-            className="absolute top-0 left-0 card-animation"
+            ref={ref}
+            className={`absolute top-0 left-0 ${
+              isInView ? "card-animation" : ""
+            }`}
             loading="lazy"
           />
         </div>

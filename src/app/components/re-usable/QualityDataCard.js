@@ -2,9 +2,10 @@ import Image from "next/image";
 import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-export const QualityDataCard = () => {
+export const QualityDataCard = ({ styles }) => {
   return (
-    <div className="w-full lg:w-[803px] h-full sm:h-[613px] py-10 px-9 bg-white rounded-2xl mt-8 card-animation">
+    <div
+      className={`w-full lg:w-[803px] h-full sm:h-[613px] py-10 px-9 bg-white rounded-2xl mt-8 ${styles}`}>
       <Image
         src={"/assets/businesses/business-1.svg"}
         height={90}

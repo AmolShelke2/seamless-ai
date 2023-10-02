@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { InfoTitle } from "./re-usable/infosection/InfoTitle";
 import { InfoHeader } from "./re-usable/infosection/InfoHeader";
@@ -6,7 +8,11 @@ import { Button } from "./re-usable/Button";
 import { InfoReview } from "./re-usable/infosection/InfoReview";
 import Image from "next/image";
 
+import { useInView } from "react-intersection-observer";
+
 export const SalesInformation = () => {
+  const [ref, isInView] = useInView();
+
   return (
     <section
       className="w-full h-full lg:h-[650px] py-6 my-16 flex flex-col-reverse px-4
@@ -47,7 +53,10 @@ export const SalesInformation = () => {
           alt="content"
           height={400}
           width={400}
-          className="absolute top-8 right-64 card-animation"
+          ref={ref}
+          className={`absolute top-8 right-64 ${
+            isInView ? "card-animation-fast" : ""
+          }`}
           loading="lazy"
         />
 
@@ -57,7 +66,9 @@ export const SalesInformation = () => {
             height={400}
             width={500}
             alt="content"
-            className=" absolute top-4 left-20 card-animation"
+            className={`absolute top-4 left-20 ${
+              isInView ? "card-animation-1" : ""
+            }`}
             loading="lazy"
           />
           <Image
@@ -65,7 +76,9 @@ export const SalesInformation = () => {
             height={400}
             width={500}
             alt="content"
-            className="absolute top-5 left-20 card-animation"
+            className={`absolute top-5 left-20 ${
+              isInView ? "card-animation-2" : ""
+            }`}
             loading="lazy"
           />
           <Image
@@ -73,7 +86,9 @@ export const SalesInformation = () => {
             height={400}
             width={500}
             alt="content"
-            className="absolute top-5 left-20 card-animation"
+            className={`absolute top-5 left-20 ${
+              isInView ? "card-animation-3" : ""
+            }`}
             loading="lazy"
           />
           <Image
@@ -81,7 +96,9 @@ export const SalesInformation = () => {
             height={400}
             width={500}
             alt="content"
-            className="absolute top-5 left-20 card-animation"
+            className={`absolute top-5 left-20 ${
+              isInView ? "card-animation" : ""
+            }`}
             loading="lazy"
           />
         </div>
