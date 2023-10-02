@@ -23,23 +23,23 @@ body {
 }
 
 .card-animation-fast {
-  animation: cardSlideIn 1s ease-out;
+  animation: cardSlideIn 1s ease-in-out;
 }
 
 .card-animation-1 {
-  animation: cardSlideIn 1.2s ease-out;
+  animation: cardSlideIn 1.2s ease-in-out;
 }
 
 .card-animation-2 {
-  animation: cardSlideIn 1.4s ease-out;
+  animation: cardSlideIn 1.4s ease-in-out;
 }
 
 .card-animation-3 {
-  animation: cardSlideIn 1.8s ease-out;
+  animation: cardSlideIn 1.8s ease-in-out;
 }
 
 .card-animation {
-  animation: cardSlideIn 2s ease-out;
+  animation: cardSlideIn 2s ease-in-out;
 }
 
 .quality-data {
