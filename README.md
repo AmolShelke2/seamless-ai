@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Seamless-ai Homepage
+
+This is a clone of the seamless.ai website homepage. It was a part of the hiring process for a full-time frontend role to re-create the homepage within 2 days, 
+with technologies like Next.js, Tailwind CSS, and animations. etc.
+
+Here is my cloned website preview [seamless-ai](https://seamless-ai.vercel.app/)
+
+<hr />
+
+## Technologies
+
+- Next.js
+- Tailwind CSS
+- React.js
+
+<hr />
+
+## Mostly focused on 
+
+- pixel-perfect UI
+- clone the website as much as possible.
+- Mobile responsive
+- animations.
+
+<hr />
+
+## Preview
+![Screenshot 2023-10-04 222729](https://github.com/AmolShelke2/seamless-ai/assets/95171638/036359fa-51ec-459f-8322-808f03cc4527)
+
+<hr />
+
+![Screenshot 2023-10-04 222856](https://github.com/AmolShelke2/seamless-ai/assets/95171638/9958793e-8f98-4792-b80f-cfeaddccce25)
+
+
+<hr />
+
 
 ## Getting Started
 
