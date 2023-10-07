@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer
       className="w-full h-full xl:w-[1400px] xl:mx-auto xl:h-[440px] flex
-       flex-col flex-wrap justify-between py-6 -mx-4 border-b-2 gap-8 sm:gap-2">
+       flex-col flex-wrap justify-between py-6 -mx-4 border-b-2 gap-8 sm:gap-2 mt-20">
       <div className="w-full xl:h-full xl:w-[34%] px-4 block">
         <div className="flex flex-col justify-between h-full px-4 sm:px-0">
           <div className="block">

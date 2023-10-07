@@ -44,13 +44,48 @@ export const aboutInfo = [
 ];
 
 export const FaqQuestions = [
-  { id: "1", question: "What is AI's impact on healthcare?" },
-  { id: "7", question: "How does Seamless.AI work?" },
-  { id: "2", question: "How does quantum computing work?" },
-  { id: "3", question: "What are the benefits of renewable energy?" },
-  { id: "4", question: "What is the future of autonomous vehicles?" },
-  { id: "5", question: "How does blockchain ensure data security?" },
-  { id: "6", question: "What is the significance of nanotechnology?" },
+  {
+    id: "1",
+    question: "What is AI's impact on healthcare?",
+    answer:
+      "Artificial intelligence has had a significant impact on healthcare. It has enabled more accurate diagnoses, personalized treatment plans, and predictive analytics for patient outcomes. AI also helps in managing healthcare resources more efficiently and improving patient care through telemedicine and remote monitoring.",
+  },
+  {
+    id: "7",
+    question: "How does Seamless.AI work?",
+    answer:
+      "Seamless.AI is a platform that leverages artificial intelligence and machine learning to help businesses find and connect with potential customers. It uses data analysis to identify leads, automate outreach, and provide insights for sales and marketing teams, ultimately streamlining the customer acquisition process.",
+  },
+  {
+    id: "2",
+    question: "How does quantum computing work?",
+    answer:
+      "Quantum computing utilizes the principles of quantum mechanics to perform computations. Unlike classical computers that use bits (0s and 1s), quantum computers use qubits, which can exist in multiple states simultaneously. This allows them to solve complex problems, such as factoring large numbers or simulating quantum systems, much faster than traditional computers.",
+  },
+  {
+    id: "3",
+    question: "What are the benefits of renewable energy?",
+    answer:
+      "Renewable energy sources like solar, wind, and hydroelectric power offer several benefits. They are environmentally friendly, producing little to no greenhouse gas emissions. They are also sustainable, as they rely on naturally occurring resources. Additionally, renewable energy can reduce dependence on fossil fuels, create jobs, and help combat climate change.",
+  },
+  {
+    id: "4",
+    question: "What is the future of autonomous vehicles?",
+    answer:
+      "The future of autonomous vehicles is promising. Self-driving cars and trucks have the potential to improve road safety, reduce traffic congestion, and increase transportation efficiency. However, widespread adoption will depend on regulatory changes, advancements in technology, and addressing various ethical and safety challenges.",
+  },
+  {
+    id: "5",
+    question: "How does blockchain ensure data security?",
+    answer:
+      "Blockchain ensures data security through its decentralized and immutable nature. Data is stored in blocks that are linked together in a chain, and once recorded, it cannot be altered or deleted without consensus from the network. This makes it highly resistant to tampering and fraud, making it a secure way to store and verify digital transactions and data.",
+  },
+  {
+    id: "6",
+    question: "What is the significance of nanotechnology?",
+    answer:
+      "Nanotechnology involves manipulating materials and structures at the nanoscale, which is incredibly small. It has significant implications in various fields, including medicine, electronics, and materials science. Nanotechnology enables the development of new materials, drug delivery systems, and miniaturized electronic components, revolutionizing industries and creating innovative solutions to complex problems.",
+  },
 ];
 
 export const footerIcons = [

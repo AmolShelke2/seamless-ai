@@ -29,7 +29,7 @@ export default function Home() {
       <QualityData />
       <FreeCredits />
       <FAQ />
-      <div className="h-full w-full mb-10 mt-32 py-10">
+      <div className="h-full w-full mb-10 mt-40 py-10">
         <Footer />
       </div>
     </>
