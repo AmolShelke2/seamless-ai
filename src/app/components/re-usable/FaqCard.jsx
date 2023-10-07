@@ -1,21 +1,17 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import { BiChevronDown } from "react-icons/bi";
 
-export const FaqCard = ({ question, answer, id }) => {
-  const [isActive, setIsActive] = useState(false);
+export const FaqCard = ({ id, question, answer, activeId, setActiveId }) => {
+  const isActive = id === activeId;
 
   const toggleIsActive = () => {
-    setIsActive(!isActive);
+    setActiveId(isActive ? null : id);
   };
 
   return (
     <div className="relative">
       <div
-        id={id}
-        className="h-[90px] w-full flex items-center justify-between border-b-2
-         px-4 my-2 relative transition-all duration-1000 cursor-pointer"
+        className="h-[90px] w-full flex items-center justify-between border-b-2 px-4 my-2 relative transition-all duration-1000"
         onClick={toggleIsActive}>
         <p className="text-black text-xl font-medium xl:font-semibold cursor-pointer hover:text-blue-500">
           {question}
