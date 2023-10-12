@@ -31,6 +31,11 @@ Here is my cloned website preview [seamless-ai](https://seamless-ai.vercel.app/)
 
 ![Screenshot 2023-10-04 222856](https://github.com/AmolShelke2/seamless-ai/assets/95171638/9958793e-8f98-4792-b80f-cfeaddccce25)
 
+<hr />
+
+## Mobile view
+![seamless-ai vercel app_](https://github.com/AmolShelke2/seamless-ai/assets/95171638/f683b66c-8200-4c00-9140-2b68de5cb71c)
+
 
 <hr />
 
